@@ -1,4 +1,4 @@
-reverse
+keyMirror
 =======
 
-reverse for the browser and node.js
+keyMirror for the browser and node.js
