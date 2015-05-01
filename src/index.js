@@ -2,6 +2,13 @@ var keys = require("keys"),
     isArrayLike = require("is_array_like");
 
 
+module.exports = keyMirror;
+
+
+function keyMirror(object) {
+    return isArrayLike(object) ? keyMirrorArray(object) : keyMirrorObject(Object(object));
+}
+
 function keyMirrorArray(array) {
     var i = array.length,
         results = {},
@@ -29,7 +36,3 @@ function keyMirrorObject(object) {
 
     return results;
 }
-
-module.exports = function keyMirror(object) {
-    return isArrayLike(object) ? keyMirrorArray(object) : keyMirrorObject(Object(object));
-};
