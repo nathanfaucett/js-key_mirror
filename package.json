@@ -7,6 +7,9 @@
     "url": "https://github.com/nathanfaucett/key_mirror.git"
   },
   "main": "src/index.js",
+  "scripts": {
+    "test": "mocha"
+  },
   "keywords": [
     "key_mirror",
     "key_mirror.js"
