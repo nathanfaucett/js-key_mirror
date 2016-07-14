@@ -1,4 +1,4 @@
 keyMirror
 =======
 
-keyMirror for the browser and node.js
+creates object where keys are both the key and the value

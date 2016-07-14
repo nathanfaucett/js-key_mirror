@@ -1,5 +1,5 @@
-var keys = require("keys"),
-    isArrayLike = require("is_array_like");
+var keys = require("@nathanfaucett/keys"),
+    isArrayLike = require("@nathanfaucett/is_array_like");
 
 
 module.exports = keyMirror;
