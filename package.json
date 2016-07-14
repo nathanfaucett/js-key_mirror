@@ -1,6 +1,6 @@
 {
   "name": "@nathanfaucett/key_mirror",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "creates object where keys are both the key and the value",
   "repository": {
     "type": "git",
